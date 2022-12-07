@@ -1,0 +1,31 @@
+add studentsentity entities:
+  title: 'Create new Studentsentity entities'
+
+administer studentsentity entities:
+  title: 'Administer Studentsentity entities'
+  description: 'Allow to access the administration form to configure Studentsentity entities.'
+  restrict access: true
+
+delete studentsentity entities:
+  title: 'Delete Studentsentity entities'
+
+edit studentsentity entities:
+  title: 'Edit Studentsentity entities'
+
+view published studentsentity entities:
+  title: 'View published Studentsentity entities'
+
+view unpublished studentsentity entities:
+  title: 'View unpublished Studentsentity entities'
+
+view all studentsentity revisions:
+  title: 'View all Studentsentity revisions'
+
+revert all studentsentity revisions:
+  title: 'Revert all Studentsentity revisions'
+  description: 'Role requires permission <em>view Studentsentity revisions</em> and <em>edit rights</em> for studentsentity entities in question or <em>administer studentsentity entities</em>.'
+
+delete all studentsentity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Studentsentity revisions</em> and <em>delete rights</em> for studentsentity entities in question or <em>administer studentsentity entities</em>.'
+

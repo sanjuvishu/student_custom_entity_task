@@ -1,0 +1,14 @@
+
+# Studentsentity menu items definition
+entity.studentsentity.collection:
+  title: 'Studentsentity list'
+  route_name: entity.studentsentity.collection
+  description: 'List Studentsentity entities'
+  parent: system.admin_structure
+  weight: 100
+
+studentsentity.admin.structure.settings:
+  title: 'Studentsentity settings'
+  description: 'Configure Studentsentity entities'
+  route_name: studentsentity.settings
+  parent: system.admin_structure

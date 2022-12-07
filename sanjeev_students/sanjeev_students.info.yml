@@ -1,0 +1,5 @@
+name: 'sanjeev students'
+type: module
+description: 'Sanjeev first Custom entity module'
+core: 8.x
+package: 'sanjeev students'

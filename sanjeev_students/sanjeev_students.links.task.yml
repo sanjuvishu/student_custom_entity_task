@@ -1,0 +1,26 @@
+# Studentsentity routing definition
+studentsentity.settings_tab:
+  route_name: studentsentity.settings
+  title: 'Settings'
+  base_route: studentsentity.settings
+
+entity.studentsentity.canonical:
+  route_name: entity.studentsentity.canonical
+  base_route: entity.studentsentity.canonical
+  title: 'View'
+
+entity.studentsentity.edit_form:
+  route_name: entity.studentsentity.edit_form
+  base_route: entity.studentsentity.canonical
+  title: 'Edit'
+
+entity.studentsentity.version_history:
+  route_name: entity.studentsentity.version_history
+  base_route: entity.studentsentity.canonical
+  title: 'Revisions'
+
+entity.studentsentity.delete_form:
+  route_name:  entity.studentsentity.delete_form
+  base_route:  entity.studentsentity.canonical
+  title: Delete
+  weight: 10

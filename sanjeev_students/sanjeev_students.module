@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains sanjeev_students.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function sanjeev_students_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the sanjeev_students module.
+    case 'help.page.sanjeev_students':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Sanjeev first Custom entity module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function sanjeev_students_theme() {
+  return [
+    'sanjeev_students' => [
+      'render element' => 'children',
+    ],
+  ];
+}

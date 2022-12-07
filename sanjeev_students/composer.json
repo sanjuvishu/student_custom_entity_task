@@ -1,0 +1,13 @@
+{
+    "name": "sanjeev_students",
+    "type": "drupal-module",
+    "description": "Sanjeev first Custom entity module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/sanjeev_students",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/sanjeev_students",
+        "source": "http://cgit.drupalcode.org/sanjeev_students",
+    },
+}
